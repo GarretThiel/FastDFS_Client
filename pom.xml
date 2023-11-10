@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project#xmlns="http://maven.apache.org/POM/4.0.0"#xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -6,7 +6,7 @@
     <artifactId>fastdfs-client</artifactId>
     <version>1.27.3-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <!-- x-SNAPSHOT -->
+    <#-- x-SNAPSHOT -->
 
     <name>fastdfs-client</name>
     <description>基于yuqih发布的代码与fastdfs-client 官方1.26版本的重构</description>
@@ -41,14 +41,14 @@
     </parent>
 
     <properties>
-        <!-- commons utils -->
+        <#-- commons utils -->
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
 
         <mockito.version>1.9.5</mockito.version>
         <hibernate-validator.version>6.0.8.Final</hibernate-validator.version>
 
-        <!-- 软件发布版本 -->
+        <#-- 软件发布版本 -->
         <copyright.year>2016</copyright.year>
 
         <!-- Plugin的属性定义 -->
@@ -287,3 +287,4 @@
 
 
 </project>
+ 
